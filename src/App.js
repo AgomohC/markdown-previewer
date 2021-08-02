@@ -50,7 +50,7 @@ const App = () => {
                 <h5>previewer</h5>
               </div>
               <div
-                className="w-100 height-50 mb-5 text-light bg-secondary p-5 rounded"
+                className="w-100 height-50 mb-5 text-light bg-secondary p-5 rounded overflow"
                 dangerouslySetInnerHTML={{ __html: marked(input) }}
               ></div>
             </div>

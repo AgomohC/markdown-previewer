@@ -16,3 +16,6 @@ textarea {
   box-shadow: inset 0 0 1px 1px rgba(50, 50, 168, 0.2);
   color: rgba(27, 27, 94, 0.6) !important;
 }
+.overflow {
+  overflow: scroll;
+}
